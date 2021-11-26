@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 chmod +x *
+=======
+gr="\e[1;32m"
+>>>>>>> parent of 22d6028 (Update install.sh)
 if [[ command -v tor > /dev/null 2>&1;
  	command -v curl > /dev/null 2>&1;
  	command -v torsocks > /dev/null 2>&1 ]]; then
